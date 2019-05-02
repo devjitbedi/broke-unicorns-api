@@ -2,6 +2,8 @@ const frisby = require('frisby');
 
 const { Joi } = frisby;
 
+// ENDPOINT 3
+
 it('should create a user', () => {
   return frisby
     .post('http://localhost:7000/api/user/new', {
