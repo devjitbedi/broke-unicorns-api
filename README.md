@@ -1,1 +1,1 @@
-<!-- Stuff that people should know -->
+<!-- Travis CI badge -->
