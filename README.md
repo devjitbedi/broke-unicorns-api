@@ -1,1 +1,1 @@
-<!-- Travis CI badge -->
+[![Build Status](https://travis-ci.org/devjitbedi/broke-unicorns-api.svg?branch=master)](https://travis-ci.org/devjitbedi/broke-unicorns-api)
