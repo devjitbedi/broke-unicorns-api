@@ -1,9 +1,12 @@
 const frisby = require('frisby');
 
+
+// ENDPOINT 5
+
 it('should return a 204 when deleting a comment that exists', () => {
 
 return frisby
-.del('http://localhost:7000/api/comment/25')
+.del('http://localhost:7000/api/comment/30')
 .expect('status',204);
 
 });

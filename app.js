@@ -56,6 +56,15 @@ app.get('/api/company', function(request, response) {
 
 });
 
+//Endpoint for getting all companies
+app.get('/api/comment', function(request, response) {
+
+  Comment.findAll().then((comment) => {
+    response.json(comment);
+  });
+
+});
+
 //Endpoint for single company
 app.get('/api/company/:id', function(request, response) {
 

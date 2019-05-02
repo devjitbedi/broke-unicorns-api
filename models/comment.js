@@ -1,7 +1,7 @@
 const sequelize = require('./../database/sequelize');
 const Sequelize = require('sequelize');
 
-module.exports = sequelize.define('rating', {
+module.exports = sequelize.define('comment', {
   id: {
     field: 'id',
     type: Sequelize.INTEGER,
